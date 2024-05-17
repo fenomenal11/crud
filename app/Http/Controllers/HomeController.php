@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Http\Controllers\PersonaController;
+use App\Http\Controllers\DocenteController;
+use App\Http\Controllers\EstudianteController;
+
 
 class HomeController extends Controller
 {

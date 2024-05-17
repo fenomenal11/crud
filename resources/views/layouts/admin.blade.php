@@ -47,6 +47,38 @@
                 <span>{{ __('Dashboard') }}</span></a>
         </li>
 
+        <!-- Nav Item - Personas -->
+        <li class="nav-item {{ Nav::isRoute('personas.index') }}">
+            <a class="nav-link" href="{{ route('personas.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('Personas') }}</span>
+            </a>
+        </li>
+
+        <!-- Nav Item - Estudiante -->
+        <li class="nav-item {{ Nav::isRoute('estudiantes.index') }}">
+            <a class="nav-link" href="{{ route('estudiantes.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('Estudiantes') }}</span>
+            </a>
+        </li>
+
+        <!-- Nav Item - Docente -->
+        <li class="nav-item {{ Nav::isRoute('docentes.index') }}">
+            <a class="nav-link" href="{{ route('docentes.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('Docentes') }}</span>
+            </a>
+        </li>
+
+        <!-- Nav Item - Curso -->
+        <li class="nav-item {{ Nav::isRoute('cursos.index') }}">
+            <a class="nav-link" href="{{ route('cursos.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('Cursos') }}</span>
+            </a>
+        </li>
+
         <!-- Divider -->
         <hr class="sidebar-divider">
 
